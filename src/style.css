@@ -1,0 +1,9 @@
+a{
+    color:aliceblue;
+}
+a:visited{
+    color: lightslategrey;
+}
+a:hover, a:active {
+    color: #eee;
+}
