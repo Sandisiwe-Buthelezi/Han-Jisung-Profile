@@ -7,8 +7,9 @@ body {
     position: relative;
     width:auto;
     height: 88rem;
-   /*background-image: url('https://i.pinimg.com/originals/26/c2/72/26c272aa6e3b3dc865ab06d99f60109a.jpg');*/
-    background-image: url('https://img.wattpad.com/cf0e5479c2a5960ddee168005e32758f9e8beb3b/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4b413356335153536638484d68773d3d2d313333353431323437362e313735366531386538373136353738643239303934373534353738302e6a7067?s=fit&w=720&h=720');
+    background-image: url('https://i.pinimg.com/originals/f0/1e/8f/f01e8fa42ce458503348656488f6f1ca.jpg');
+    /*background-image: url('https://i.pinimg.com/originals/26/c2/72/26c272aa6e3b3dc865ab06d99f60109a.jpg');*/
+    /*background-image: url('https://img.wattpad.com/cf0e5479c2a5960ddee168005e32758f9e8beb3b/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4b413356335153536638484d68773d3d2d313333353431323437362e313735366531386538373136353738643239303934373534353738302e6a7067?s=fit&w=720&h=720');*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70% 98%;
@@ -82,7 +83,7 @@ nav li:hover{
 
 .body {
     position:absolute;
-    top: 110%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
@@ -96,7 +97,7 @@ nav li:hover{
 
 .title{
     font-weight: 600;
-    font-size: 4rem;   
+    font-size: 5rem;   
     margin: 3rem auto 2rem auto;
     
     color: #fff;

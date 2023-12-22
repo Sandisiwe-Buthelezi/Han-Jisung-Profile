@@ -4,39 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/pages.css">
-    <title>Quotes and Facts</title>
+    <title>Quotes and Funfacts</title>
 </head>
+
 <body>
     <header>
-        <!-- Navigation Bar -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="biography.html">Biography</a></li>
-                    <li><a href="bts.html">Behind the songs</a></li>
-                    <li><a href="fancam.html">fancams</a></li>
-                    <li><a href="quotesandfacts.html">Quotes and funfacts</a>
-                    <li><a href="lyrics.html">Lyrics</a></li>
-                    <li><a href="articles.html">Articles</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="entertainment.html">Entertainment</a></li>
-            </ul>
-        </nav>    
+        <div class="card">
+            <div class="inner">
+                <div class="homepage" id="#homepage">
+                    <!-- Navigation Bar -->
+                  <nav class="nav">
+                      <ul class="list nav">
+                        <li><a href="index.html">Home</a></li>
+                          <li ><a href="biography.html">Biography</a></li>
+                              <li><a href="bts.html">Behind the songs</a></li>
+                              <li><a href="fancam.html">fancams</a></li>
+                              <li class="current"><a href="quotesandfacts.html">Quotes and funfacts</a>
+                              <li><a href="lyrics.html">Lyrics</a></li>
+                              <li><a href="articles.html">Articles</a></li>
+                              <li><a href="gallery.html">Gallery</a></li>
+                              <li><a href="entertainment.html">Entertainment</a></li>
+                              <li><a href="entertainment.html">More</a></li>
+                      </ul>
+                  </nav>
+                  
+                  <!--<form class="search-form" id="search-form">
+                      <input
+                        type="search"
+                        placeholder="..."
+                        required
+                        id="search-form-input"
+                        class="search-form-input"
+                      />
+                      <input type="submit" value="Search" class="search-form-button" />
+                    </form>-->
+                </div>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <!-- Main Content of Homepage -->
-        <section class="quotes-and-funfacts" id="html">
-            <h2>Quotes And FunFacts</h2>
-            <h4>Quotes</h4>
-            <h4>Fun Facts</h4>
-            <a href="#homepage">Back to home</a>
-        </section>
-        <a href="#" id="back-to-top">Back to Top</a>  
+<!-- Main Content of Homepage -->
+    <main >
+        <div class="body">
+            <h2 class="title">Quotes and Fun Facts</h2>
+            <div class="info">            
+                <p class="slug">
+                    <ul>
+                        <li>
+                            Quotes
+                        </li>
+                        <li>
+                            Fun Facts
+                        </li>
+
+                        <br><br><br><br><br><br><br><br><br><br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    
+                </p>
+                    <div class="rating">
+                        Ace | genious idol | 1000 years idol | Born-to-be idol 
+                        <br><br>- k-Media
+                    </div>
+            </div>
+
+        </div>
+
     </main>
-    
-    <footer></footer>
-    
-    
+
+    <footer class="footer">
+        <a href="#" id="back-to-top">Back to Top</a>
+    </footer>
 </body>
 </html>
